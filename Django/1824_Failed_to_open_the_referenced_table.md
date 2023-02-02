@@ -1,15 +1,15 @@
 # Environment
 > ## PC
->> CPU: Apple M1
->> OS: macOS Ventura 13.2
+>> CPU: Apple M1  
+>> OS: macOS Ventura 13.2  
 >
 > ## Versions
->> Python: 3.10.9
->> Django: 4.1.5
->> PyMySQL: 1.0.2
+>> Python: 3.10.9  
+>> Django: 4.1.5  
+>> PyMySQL: 1.0.2  
 
 # When?
-> 1. Default AUTH_USER_MODEL changed
+> 1. Default AUTH_USER_MODEL changed   
 
 # Error Message
 ```
@@ -30,7 +30,7 @@ pymysql.err.OperationalError: (1824, "Failed to open the referenced table 'blabl
 ```
 
 # solve
-First, Do migration APP after migrate
-
-$ python manage.py makemigrations [APP_NAME]
-$ python manage.py migrate
+First, Do migration APP after migrate  
+  
+$ python manage.py makemigrations [APP_NAME]  
+$ python manage.py migrate  
